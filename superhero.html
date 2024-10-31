@@ -3,48 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Superhero Table</title>
+    <title>Marvel Superheroes</title>
     <style>
+        /* Basic page styling */
         body {
-            font-family: Times New Roman, sans-serif;
-            background-color: white;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
             color: #333;
+            margin: 0;
             padding: 20px;
         }
-
+        
+        /* Table styling */
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         th, td {
-            padding: 10px;
-            border: 1px solid #ddd;
-            text-align: center;
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
         }
 
         th {
-            background-color: #0073e6;
+            background-color: #ff6b6b;
             color: white;
             font-weight: bold;
         }
 
-        .superhero-image {
-            height: 100px;
-            transition: transform 0.2s ease;
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
         }
 
-        .superhero-image:hover {
-            transform: scale(1.05);
+        /* Image styling */
+        .hero-image {
+            height: 100px;
+            width: auto;
+            border-radius: 8px;
+        }
+
+        /* Hover effect */
+        tr:hover {
+            background-color: #ffe6e6;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
 
-    <h1>My Superheroes</h1>
-
+    <h1>Marvel Superheroes</h1>
     <table>
         <tr>
             <th>Name</th>
@@ -54,32 +64,39 @@
             <th>Weakness</th>
         </tr>
         <tr>
-            <td>Clark Kent</td>
-            <td>Superman</td>
-            <td><a href="superman-full.jpg" target="_blank"><img src="superman-thumb.jpg" alt="Superman" class="superhero-image"></a></td>
-            <td>Super Strength, Flight, X-ray Vision</td>
-            <td>Kryptonite</td>
-        </tr>
-        <tr>
-            <td>Bruce Wayne</td>
-            <td>Batman</td>
-            <td><a href="batman-full.jpg" target="_blank"><img src="batman-thumb.jpg" alt="Batman" class="superhero-image"></a></td>
-            <td>Genius Intelligence, Martial Arts</td>
-            <td>Human Limitations</td>
-        </tr>
-        <tr>
-            <td>Diana Prince</td>
-            <td>Wonder Woman</td>
-            <td><a href="wonderwoman-full.jpg" target="_blank"><img src="wonderwoman-thumb.jpg" alt="Wonder Woman" class="superhero-image"></a></td>
-            <td>Super Strength, Agility, Immortality</td>
-            <td>Loss of Bracelet Power</td>
-        </tr>
-        <tr>
             <td>Peter Parker</td>
             <td>Spider-Man</td>
-            <td><a href="spiderman-full.jpg" target="_blank"><img src="spiderman-thumb.jpg" alt="Spider-Man" class="superhero-image"></a></td>
-            <td>Spider-Sense, Wall-Crawling, Agility</td>
-            <td>Moral Conflicts</td>
+            <td><a href="spiderman-full.jpg"><img src="spiderman.jpg" alt="Spider-Man" class="hero-image"></a></td>
+            <td>Spider Sense, Wall Crawling, Super Agility</td>
+            <td>Spider-Sense Overload</td>
+        </tr>
+        <tr>
+            <td>Tony Stark</td>
+            <td>Iron Man</td>
+            <td><a href="ironman-full.jpg"><img src="ironman.jpg" alt="Iron Man" class="hero-image"></a></td>
+            <td>Genius Intellect, Powered Armor Suit</td>
+            <td>Reactor Dependency</td>
+        </tr>
+        <tr>
+            <td>Natasha Romanoff</td>
+            <td>Black Widow</td>
+            <td><a href="blackwidow-full.jpg"><img src="blackwidow.jpg" alt="Black Widow" class="hero-image"></a></td>
+            <td>Espionage, Hand-to-Hand Combat</td>
+            <td>Mortal, Trauma from Past</td>
+        </tr>
+        <tr>
+            <td>T'Challa</td>
+            <td>Black Panther</td>
+            <td><a href="blackpanther-full.jpg"><img src="blackpanther.jpg" alt="Black Panther" class="hero-image"></a></td>
+            <td>Enhanced Strength, Vibranium Suit</td>
+            <td>Loss of Heart-Shaped Herb</td>
+        </tr>
+        <tr>
+            <td>Rocket</td>
+            <td>Rocket Raccoon</td>
+            <td><a href="rocket-full.jpg"><img src="rocket.jpg" alt="Rocket Raccoon" class="hero-image"></a></td>
+            <td>Enhanced Intelligence, Marksmanship</td>
+            <td>Short Temper</td>
         </tr>
     </table>
 
