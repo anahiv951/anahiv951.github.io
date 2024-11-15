@@ -1,10 +1,12 @@
-:root {
+:root 
+{
     background-color: rgb(157,129,192)
     color: white;
 }
 
 
-h1 {
+h1 
+{
     font-family: 'Brush Script MT', cursive;
     color: #4a4a4a;
     font-size: 45px;
@@ -12,7 +14,8 @@ h1 {
 }
 
 
-h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 
+{
     font-family: 'Brush Script MT', cursive;
     color: rgb(105, 105, 105);
     font-size: 45px;
@@ -20,13 +23,15 @@ h2, h3, h4, h5, h6 {
 }
 
 
-img {
+img 
+{
     display: block;
     margin:  auto;   
 }
 
 
-p {
+p 
+{
     font-size: 1.1em;
     color: #595959;
     margin-bottom: 15px;
@@ -34,7 +39,8 @@ p {
 }
 
 
-a {
+a 
+{
     color: #706f6f;
 }
 
