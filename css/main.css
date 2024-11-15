@@ -1,44 +1,31 @@
 :root 
 {
-    background-color: rgb(157,129,192)
+    background-color: rgb(157,129,192);
     color: white;
 }
-
-
-h1 
-{
-    font-family: 'Brush Script MT', cursive;
-    color: #4a4a4a;
-    font-size: 45px;
-    text-align: center;
-}
-
-
-h2, h3, h4, h5, h6 
-{
-    font-family: 'Brush Script MT', cursive;
-    color: rgb(105, 105, 105);
-    font-size: 45px;
-    text-align: center;
-}
-
-
 img 
 {
     display: block;
     margin:  auto;   
 }
-
-
+h1 
+{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+h2, h3, h4, h5, h6 
+{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
 p 
 {
-    font-size: 1.1em;
-    color: #595959;
-    margin-bottom: 15px;
-    padding: 0 15px;
+    font-size: 45px;
+    color: white;
+    text-align: center;
 }
-
-
 a 
 {
     color: #706f6f;
